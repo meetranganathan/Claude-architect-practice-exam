@@ -653,10 +653,6 @@ This server enforces honest grading at the protocol level — not just in prompt
 
 <br />
 
-## Contributing
-
-
-
 
 
 ### Project Structure
@@ -705,9 +701,7 @@ scripts/
 
 <br />
 
-## License
 
-MIT © [Connectry Labs](https://connectry.io/labs)
 
 <br />
 
