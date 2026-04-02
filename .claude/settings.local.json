@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(where node:*)",
+      "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(cmd.exe /c \"where node 2>nul || echo NOT_FOUND\")",
+      "Bash(cmd.exe /c \"where node\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npm --version)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm run:*)",
+      "mcp__connectry-architect__start_assessment",
+      "mcp__connectry-architect__get_progress",
+      "mcp__connectry-architect__get_curriculum",
+      "mcp__connectry-architect__submit_answer",
+      "mcp__connectry-architect__get_study_plan",
+      "mcp__connectry-architect__get_weak_areas",
+      "mcp__connectry-architect__get_section_details",
+      "mcp__connectry-architect__get_practice_question",
+      "mcp__connectry-architect__follow_up",
+      "mcp__connectry-architect__start_practice_exam",
+      "mcp__connectry-architect__submit_exam_answer",
+      "mcp__connectry-architect__reset_progress",
+      "Bash(node -e \":*)",
+      "Read(//c/Users/meetr/AppData/Roaming/Claude/**)",
+      "Read(//c/Users/meetr/.claude/**)",
+      "Bash(find C:/Users/meetr/.claude -name *.json)",
+      "Bash(xargs grep:*)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''''mcpServers'''',{}\\), indent=2\\)\\)\")",
+      "Bash(node -e \"const Database = require\\(''C:/Users/meetr/OneDrive/Desktop/Projects/Claude_Projects/Claude_Certification/connectrylab-architect-cert-mcp-master/node_modules/better-sqlite3''\\);const db = new Database\\(''C:/Users/meetr/.connectry-architect/progress.db''\\);const exam = db.prepare\\(''SELECT questionIds, answeredQuestionIds FROM exam_attempts WHERE id = 2''\\).get\\(\\);const all = JSON.parse\\(exam.questionIds\\);const answered = JSON.parse\\(exam.answeredQuestionIds\\);const remaining = all.filter\\(id => !answered.includes\\(id\\)\\);console.log\\(remaining[0]\\);\")",
+      "Bash(node \"C:/Users/meetr/OneDrive/Desktop/Projects/Claude_Projects/Claude_Certification/connectrylab-architect-cert-mcp-master/get_next_id.js\")",
+      "Bash(node -e \"const Database = require\\(''C:/Users/meetr/OneDrive/Desktop/Projects/Claude_Projects/Claude_Certification/connectrylab-architect-cert-mcp-master/node_modules/better-sqlite3''\\);const db = new Database\\(''C:/Users/meetr/.connectry-architect/progress.db''\\);const exam = db.prepare\\(''SELECT questionIds, answeredQuestionIds FROM exam_attempts WHERE id = 2''\\).get\\(\\);const all = JSON.parse\\(exam.questionIds\\);const answered = JSON.parse\\(exam.answeredQuestionIds\\);const remaining = all.filter\\(id => answered.indexOf\\(id\\) === -1\\);console.log\\(remaining[0]\\);\")",
+      "WebSearch",
+      "Bash(npm list:*)",
+      "Bash(node scripts/friday-finds.js)",
+      "Bash(cp scripts/friday-finds.js scripts/friday-finds.cjs)",
+      "Bash(node scripts/friday-finds.cjs)"
+    ]
+  }
+}
