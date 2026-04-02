@@ -653,7 +653,29 @@ This server enforces honest grading at the protocol level — not just in prompt
 
 <br />
 
+## Contributing
 
+We welcome contributions! Here's how to get started:
+
+```bash
+# Clone the repo
+git clone https://github.com/Connectry-io/connectrylab-architect-cert-mcp.git
+cd connectrylab-architect-cert-mcp
+
+# Install dependencies
+npm install
+
+# Build
+npm run build
+
+# Run tests (30 tests across 6 test files)
+npm test
+
+# Generate PDF handouts
+npm run generate:pdfs
+
+# Run locally
+node dist/index.js
 ```
 
 ### Project Structure
@@ -702,6 +724,9 @@ scripts/
 
 <br />
 
+## License
+
+MIT © [Connectry Labs](https://connectry.io/labs)
 
 <br />
 
