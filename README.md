@@ -17,12 +17,6 @@
   390 questions. Guided capstone build. 30 concept handouts. 6 reference projects. Practice exams. Spaced repetition. Zero sycophancy.
 </p>
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/connectry-architect-mcp"><img src="https://img.shields.io/npm/v/connectry-architect-mcp?style=flat&colorA=18181B&colorB=E8784A" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/connectry-architect-mcp"><img src="https://img.shields.io/npm/dm/connectry-architect-mcp?style=flat&colorA=18181B&colorB=E8784A" alt="npm downloads"></a>
-  <a href="https://github.com/Connectry-io/connectrylab-architect-cert-mcp"><img src="https://img.shields.io/github/stars/Connectry-io/connectrylab-architect-cert-mcp?style=flat&colorA=18181B&colorB=E8784A" alt="GitHub stars"></a>
-  <a href="https://github.com/Connectry-io/connectrylab-architect-cert-mcp/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Connectry-io/connectrylab-architect-cert-mcp?style=flat&colorA=18181B&colorB=E8784A" alt="License"></a>
-</p>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
